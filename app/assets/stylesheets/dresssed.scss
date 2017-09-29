@@ -23,3 +23,17 @@
   width: auto;
 }
 */
+
+@media (min-width: 768px) {
+  .navbar-right {
+    margin-right: 0;
+  }
+
+  .nav.navbar-nav {
+    li:first-of-type {
+      a {
+        padding-left: 0;
+      }
+    }
+  }
+}

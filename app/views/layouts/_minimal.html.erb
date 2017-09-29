@@ -39,10 +39,6 @@
   <body class="<%= yield (:body_class) %>">
     <%= render "layouts/navbar" %>
 
-    <div id="main" class="container-fluid">
-      <div class="row">
-        <%= yield %>
-      </div> <!-- /.container -->
-    </div> <!-- /#main -->
+    <%= yield %>
   </body>
 <% end %>
